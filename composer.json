@@ -1,0 +1,41 @@
+{
+    "name": "ascodelab/contact",
+    "description": "Laravel package starter stub",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anil Sharma",
+            "email": "anela.kumar@gmail.com",
+            "homepage": "https://ascodelab.io/-/#"
+        }
+    ],
+    "homepage": "https://github.com/ascodelab/contact",
+    "keywords": ["Laravel", "Contact"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ascodelab\\Contact\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ascodelab\\Contact\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ascodelab\\Contact\\ContactServiceProvider"
+            ],
+            "aliases": {
+                "Contact": "Ascodelab\\Contact\\Facades\\Contact"
+            }
+        }
+    }
+}
