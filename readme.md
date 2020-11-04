@@ -43,15 +43,31 @@ Now your project structure would look something like below screenshoot
 
 ## Testing the project locally
 
-1. Adding package to the composer.json 
-![Screenshot](pkg.png)
-2. Adding local development repository
-![Screenshot](repo.png)
-3. Installing the local package 
+Adding package to the composer.json (require section)
+
+``` bash 
+$ "ascodelab/contact": "@dev",
+```
+
+Adding local development repository
+```bash
+"repositories": {
+        "ascodelab/contact": {
+            "type": "path",
+            "url": "/usr/local/var/www/Project/packages/contact/packages/ascodelab/contact",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
+```
+
+Installing the local package 
+
 ``` bash 
 $ composer install/update
 ```
-4. Hit /contact and check if it's working fine. 
+Hit /contact and check if it's working fine. 
 
 ## Note
 Drop an email to anela.kumar@gmail.com for any quick technical support.
