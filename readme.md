@@ -1,7 +1,7 @@
 # Contact
 
 [![Latest Version](https://img.shields.io/github/release/ascodelab/contact.svg?style=flat-square)](https://github.com/ascodelab/contact/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/ascodelab/contact.svg?style=flat-square)](https://packagist.org/packages/ascodelab/contact)
+<!--- [![Total Downloads](https://img.shields.io/packagist/dt/ascodelab/contact.svg?style=flat-square)](https://packagist.org/packages/ascodelab/contact) -->
 [![Issues](https://img.shields.io/github/issues/ascodelab/contact?style=flat-square)](https://packagist.org/packages/ascodelab/contact)
 
 
